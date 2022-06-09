@@ -1,13 +1,15 @@
 import React from 'react';
 import Profile from './Profile';
-import Footer from './Footer/Footer';
 import './Home.css';
+import Projects from './Projects/Projects';
+import Contact from './Contact/Contact';
 
 export default function Home() {
     return (
         <div className='home-container'>
             <Profile />
-            <Footer />
+            <Projects />
+            <Contact />
         </div>
     )
 }
