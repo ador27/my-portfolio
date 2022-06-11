@@ -1,7 +1,7 @@
 import React from 'react';
 import './Contact.css';
 
-const Contact = (Email) => {
+const Contact = () => {
     return (
         <div>
             <div className="container">
@@ -11,8 +11,9 @@ const Contact = (Email) => {
                     <input type="email" id="email" placeholder="Your email" required />
                     <input type="text" id="phone" placeholder="Phone Number" required />
                     <textarea id="Message" rows="6" placeholder="How Can I Help You?"></textarea>
-                    <button type="submit">Send</button>
+                    <button className='text-blue-700 bg-slate-800 text-white' type="submit">Send</button>
                 </form>
+
             </div>
             {/*    <script src="https://smtpjs.com/v3/smtp.js"></script>
             <script>
