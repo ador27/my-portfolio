@@ -48,8 +48,6 @@ export default function Profile() {
                                         3000,
                                         "MERN Stack Developer",
                                         3000,
-                                        "Cross Platform",
-                                        3000,
                                         "ReactJs Developer",
                                         3000,
                                     ]}
@@ -61,10 +59,10 @@ export default function Profile() {
                         </span>
                     </div>
                     <div className="profile-options">
-                        <button className='btn primary-btn'>
+                        <a href="https://www.linkedin.com/in/rashedul-haque-ador-5b0b771a9/">   <button className='btn primary-btn'>
                             {" "}
                             Hire Me{" "}
-                        </button>
+                        </button></a>
                         <a href="Md. Rashedul Haque Ador Resume.pdf" download='Md. Rashedul Haque Ador Resume.pdf'>
                             <button className='btn highlighted-btn'>Get Resume</button>
                         </a>

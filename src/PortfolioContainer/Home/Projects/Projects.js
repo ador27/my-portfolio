@@ -4,6 +4,7 @@ const Projects = () => {
     return (
         <div className='grid grid-cols-3 gap-4'>
             <div class="card w-96 bg-base-100 shadow-xl">
+                <figure><img className='object-contain h-48 w-96 ...' src="https://i.ibb.co/DR7kM9k/scrnli-6-11-2022-10-29-48-PM.png" alt="Shoes" /></figure>
                 <div class="card-body">
                     <h2 class="card-title">Manufacturer Website</h2>
                     <p>● Maintain Inventory Products & Protected.</p>
@@ -18,6 +19,7 @@ const Projects = () => {
                 </div>
             </div>
             <div class="card w-96 bg-base-100 shadow-xl">
+                <figure><img className='object-contain h-48 w-96 ...' src="https://i.ibb.co/xjcGm5m/scrnli-6-11-2022-10-33-00-PM.png" alt="Shoes" /></figure>
                 <div class="card-body">
                     <h2 class="card-title">WareHouse Website</h2>
                     <p>● Authentication Implementation</p>
@@ -32,6 +34,7 @@ const Projects = () => {
                 </div>
             </div>
             <div class="card w-96 bg-base-100 shadow-xl">
+                <figure><img className='object-contain h-48 w-96 ...' src="https://i.ibb.co/gSJdtsR/scrnli-6-11-2022-10-35-21-PM.png" alt="Shoes" /></figure>
                 <div class="card-body">
                     <h2 class="card-title">Travel Guide Website</h2>
                     <p>● Authentication Implementation</p>
